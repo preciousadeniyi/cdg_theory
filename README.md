@@ -1,7 +1,13 @@
 # A Curved Dynamics Geometry of Meaning: Unification of General Relativity and Quantum Field Theory on a Universal Manifold
 
+
+
 **Author:** Adeniyi Precious. A 
+
+
 **Affiliation:** Independent Researcher
+
+
 **Email:** preciousadeniyi165@gmail.com  
 
 
@@ -914,7 +920,6 @@ The value of CDG lies in providing:
 - A structured approach to addressing open problems in fundamental physics
 
 This recovery analysis establishes CDG as a viable framework for theoretical unification while clearly delineating between established results and future research directions.
-
 
 
 
