@@ -44,9 +44,19 @@ The century-long incompatibility between general relativity's geometric foundati
 The theory is governed by an action principle where a negotiation tensor $N_{AB}$ mediates between geometric and quantum sectors:
 
 
-\[
-S_{\text{CDG}} = \int d^{D}X \sqrt{-G} \left[ \mathcal{L}_{\text{grav}} + \mathcal{L}_{\text{negotiation}} + \mathcal{L}_{\text{matter}} + \mathcal{L}_{\text{coupling}} \right] + S_{\text{boundary}}
-\]
+*S_CDG = ∫ d^D X √(-G) [ L_grav + L_negotiation + L_matter + L_coupling ] + S_boundary*
+
+Explanation of Terms:
+- *S_CDG*: Total action of the Curved Dynamic Geometry (CDG) framework  
+- *∫ d^D X*: Integral over a D-dimensional spacetime  
+- *√(-G)*: Square root of the negative determinant of the spacetime metric G  
+- *L_grav*: Gravitational part of the Lagrangian (e.g. involving curvature R(G))  
+- *L_negotiation*: Terms describing the interaction between actual and intended geometry (like N_AB or v_AB fields)  
+- *L_matter*: Standard Model fields plus the Ψ ("meaning") field  
+- *L_coupling*: Coupling terms between geometry, matter, and Ψ  
+- *S_boundary*: Boundary terms needed for consistent variational principle
+
+  
 
 Key features include:
 
@@ -143,8 +153,8 @@ This paper establishes CDG through systematic mathematical development:
 - Section 7: Specific, testable predictions for current experimental facilities
 
 **Part IV: Extended Implications**
-- Section 8: Geometric formulation of information integration measures
-- Section 9: Limitations and future research directions
+
+- Section 8: Limitations and future research directions
 
 The framework makes falsifiable predictions including measurable negotiation tensor effects at the LHC ($m_N \sim 1-10$ TeV scale) and specific deviations from Standard Model expectations, providing clear experimental validation pathways.
 
@@ -273,24 +283,32 @@ where:
 - $h_{mn}$: Internal space metric  
 - $A_\mu^m$: Gauge fields from Kaluza-Klein reduction
 
-**Proposition 2.2.4** (Volume Normalization): The internal space volume is normalized as:
-$$V_7 = \int_{\mathcal{K}_7} d^7y \sqrt{h} = \frac{M_{\text{Pl}}^2}{M_{11}^9}$$
-where $M_{11} = \kappa_{11}^{-2/9}$ is the 11D Planck scale.
+**Proposition 2.2.4 (Volume Normalization):**
+The internal space volume is normalized as:
+
+*V₇ = ∫_{𝒦₇} d⁷y √h = M_Pl² / M₁₁⁹*
+
+Where:  
+- *V₇* is the volume of the 7D compact internal space 𝒦₇  
+- *∫ d⁷y √h* is the integral over internal coordinates with the determinant of the 7D metric  
+- *M_Pl* is the 4D Planck mass  
+- *M₁₁* is the 11D Planck scale, with *M₁₁ = κ₁₁^(-2/9)*
 
 ## 2.3 Generalized Connection and Curvature
 
 ### 2.3.1 Master Connection Definition
 
-**Definition 2.3.1** (Generalized Connection): The master connection $\omega$ on the frame bundle $F\mathcal{U}$ is a $\mathfrak{so}(1,10)$-valued 1-form with decomposition:
+**Definition 2.3.1 (Generalized Connection):*  
+The master connection *ω* on the frame bundle *FM* is an *so(1,10)*-valued 1-form with the following block decomposition:
 
-$$\omega_M^{AB} = \begin{pmatrix}
-\omega_\mu^{ab} & K_\mu^{am} \\
-K_\mu^{nb} & \omega_m^{pq}
-\end{pmatrix}$$
-where:
-- $\omega_\mu^{ab}$: 4D spin connection (Lorentz indices $a,b=0,\ldots,3$)
-- $\omega_m^{pq}$: Internal spin connection (internal indices $p,q=1,\ldots,7$)  
-- $K_\mu^{am}$: Mixed components encoding gauge interactions and torsion
+*ω_M^{AB} =*  
+  | ω_μ^{ab}  K_μ^{am} |  
+  | K_μ^{nb}  ω_m^{pq} |
+
+Where:  
+- *ω_μ^{ab}*: 4D spin connection (Lorentz indices a, b = 0,…,3)  
+- *ω_m^{pq}*: Internal spin connection (internal indices p, q = 1,…,7)  
+- *K_μ^{am}* and *K_μ^{nb}*: Mixed components encoding *gauge interactions* and *torsion*
 
 **Definition 2.3.2** (Negotiation Tensor Coupling): The negotiation tensor $N_{AB}$ modifies the connection through contorsion:
 $$\omega_{ABC} = \tilde{\omega}_{ABC} + K_{ABC}$$
@@ -331,9 +349,18 @@ $$\nabla_{[\lambda} R_{\mu\nu]\rho\sigma} = 0, \quad \nabla_{[\lambda} T_{\mu\nu
 
 ### 2.3.4 Dimensional Reduction Framework
 
-**Theorem 2.3.8** (Kaluza-Klein Reduction): Under compactification $\mathcal{U} = \mathcal{M}_4 \times \mathcal{K}_7$, the 11D curvature reduces as:
-$$\Omega_{11D} \to \Omega_{4D} + \sum_a F^{(a)} \wedge V^{(a)} + R_{\text{internal}} + \text{mixing terms} + \Omega_N$$
-where $V^{(a)}$ are harmonic 1-forms on $\mathcal{K}_7$ and $\Omega_N$ contains negotiation tensor contributions.
+*Theorem 2.3.8 (Kaluza-Klein Reduction):*  
+Under compactification *𝒰 = ℳ⁴ × 𝒦⁷*, the 11-dimensional curvature decomposes as:
+
+*Ω₁₁ᴰ → Ω₄ᴰ + ∑ₐ F⁽ᵃ⁾ ∧ V⁽ᵃ⁾ + R_internal + mixing terms + Ω_N*
+
+Where:  
+- *V⁽ᵃ⁾* are *harmonic 1-forms* on the internal space *𝒦⁷*,  
+- *F⁽ᵃ⁾* are the associated *field strengths*,  
+- *R_internal* represents internal curvature contributions,  
+- *Ω_N* encodes contributions from the *negotiation tensor N_{AB}*,  
+- And *mixing terms* include cross-couplings between external and internal geometries.
+  
 
 **Corollary 2.3.9** (4D Effective Action): The dimensional reduction yields:
 $$S_{4D} = \int d^4x \sqrt{-g} \left[ \frac{1}{2\kappa_4^2} R + \frac{1}{4g_a^2} F_{\mu\nu}^a F^{a\mu\nu} + \mathcal{L}_{\text{matter}} + \mathcal{L}_N \right]$$
@@ -352,8 +379,17 @@ This topological constraint affects the zero-mode spectrum in dimensional reduct
 
 ### 2.3.6 Holonomy and Special Structures
 
-**Definition 2.3.12** (Holonomy Group): 
-$$\text{Hol}(\omega) = \left\{ P\exp\left(\oint_\gamma \omega\right) : \gamma \text{ closed loop} \right\}$$
+**Definition 2.3.12 (Holonomy Group):**  
+The holonomy group *Hol(ω)* of a connection *ω* is defined as:
+
+*Hol(ω) = { Pexp(∮_γ ω) : γ is a closed loop }*
+
+Where:  
+- *Pexp* is the path-ordered exponential,  
+- *γ* is any closed loop in the manifold,  
+- *ω* is the connection 1-form.
+
+-
 
 **Theorem 2.3.13** (Reduced Holonomy): For CDG framework with specific internal geometries:
 $$\text{Hol}(\mathcal{U}) \subseteq SO(1,3) \times G_2$$
@@ -459,57 +495,105 @@ $$
 
 ### 3.1.2 Geometric Interpretation of Each Term
 
-**Term 1: Einstein-Hilbert Action**
-$$
-S_{\text{EH}} = \frac{1}{2\kappa_D^2} \int d^{D}X \sqrt{-G} R(G)
-$$
+*Term 1: Einstein–Hilbert Action*
 
-- **Geometric meaning**: Measures spacetime curvature
-- **Physical role**: Generates Einstein field equations  
-- **Coefficient**: $\kappa_D^2 = 8\pi G_D$ sets $D$-dimensional gravitational scale
+*S_EH = (1 / 2κ_D²) ∫ d^D X √(-G) R(G)*
 
-**Term 2: Negotiation Tensor Dynamics**
-$$
-S_N = \int d^{D}X \sqrt{-G} \left[ \frac{\lambda}{\kappa_D^2} \nabla_C N_{AB} \nabla^C N^{AB} + V_N(N,\Psi) \right]
-$$
+- *G*: Determinant of the D-dimensional metric tensor G_AB  
+- *R(G)*: Ricci scalar curvature of the spacetime metric  
+- *κ_D² = 8πG_D*: Gravitational coupling constant in D dimensions  
 
-- **Kinetic term**: $\frac{\lambda}{\kappa_D^2} \nabla_C N_{AB} \nabla^C N^{AB}$ measures variation rate of $N_{AB}$
-- **Potential term**: $V_N(N,\Psi)$ provides mass, self-interaction, and $\Psi$-field coupling
-- **Constraint**: $\lambda > 0$ ensures ghost-free propagation
+*Meaning*:  
+- Measures total curvature of spacetime  
+- Generates the Einstein field equations upon variation  
 
-**Term 3: Meaning Field Dynamics**
-$$
-S_\Psi = \int d^{D}X \sqrt{-G} \left[ G^{AB} (D_A \Psi)^\dagger (D_B \Psi) - m_\Psi^2 |\Psi|^2 - \lambda_\Psi |\Psi|^4 + \xi R(G) |\Psi|^2 \right]
-$$
+---
 
-- **Kinetic term**: Standard for complex scalar field with gauge covariance
-- **Mass term**: $m_\Psi^2 > 0$ for massive field, $m_\Psi^2 < 0$ for symmetry breaking
-- **Curvature coupling**: $\xi = \frac{D-2}{4(D-1)}$ for conformal invariance in $D$ dimensions
+*Term 2: Negotiation Tensor Dynamics*
 
-**Term 4: Semantic Constraint**
-$$
-S_{\text{sem}} = \int d^{D}X \sqrt{-G} \, \lambda_{\text{sem}}^{AB} (\nabla_A \Psi \nabla_B \Psi^\dagger N_{AB} - \kappa_{\text{sem}} G_{AB})
-$$
+*S_N = ∫ d^D X √(-G) [ (λ / κ_D²) ∇_C N_AB ∇^C N^AB + V_N(N, Ψ) ]*
 
-- **Constraint mechanism**: Lagrange multiplier $\lambda_{\text{sem}}^{AB}$ enforces geometric-semantic relation
-- **Physical interpretation**: Meaning gradients drive geometric negotiation
-- **Consciousness threshold**: $\kappa_{\text{sem}}$ sets scale for semantic coherence
+- *N_AB*: Negotiation tensor representing pre-geometric structure  
+- *∇_C*: Covariant derivative with respect to metric G  
+- *V_N(N, Ψ)*: Potential including mass, self-interaction, and Ψ coupling  
+- *λ > 0*: Ensures ghost-free, stable dynamics  
 
-**Term 5: Standard Model Sector**
-$$
-S_{\text{SM}} = \int d^{D}X \sqrt{-G} \left[ \frac{1}{4g^2} \text{Tr}(F_{MN} F^{MN}) + (D_M \Phi)^\dagger (D^M \Phi) - V(\Phi) \right]
-$$
+*Meaning*:  
+- Describes how negotiation geometry evolves and couples to Ψ  
+- Controls symmetry breaking and curvature formation  
 
-- **Gauge sector**: Yang-Mills action with proper coupling $g$
-- **Higgs sector**: Mexican hat potential $V(\Phi) = -\mu^2 |\Phi|^2 + \lambda |\Phi|^4$
+---
 
-**Term 6: Boundary Action**
-$$
-S_{\text{boundary}} = \frac{1}{\kappa_D^2} \int_{\partial\mathcal{M}} d^{D-1}X \sqrt{-h} K
-$$
+*Term 3: Meaning Field Dynamics*
 
-- **Geometric meaning**: Ensures well-posed variational problem
-- **Physical role**: Contributes to holographic principles and entropy
+*S_Ψ = ∫ d^D X √(-G) [ G^AB (D_A Ψ)† (D_B Ψ) − m_Ψ² |Ψ|² − λ_Ψ |Ψ|⁴ + ξ R(G) |Ψ|² ]*
+
+- *Ψ*: Complex scalar field (meaning field)  
+- *D_A = ∇_A − iqA_A*: Gauge covariant derivative
+
+- *∂M*: Boundary of the spacetime manifold  
+- *h*: Determinant of the induced metric on the boundary  
+- *K*: Trace of the extrinsic curvature  
+
+*Meaning*:  
+- Required for a well-defined variational principle  
+- Appears in holographic dualities and black hole entropy
+
+- *m_Ψ²*: Mass term (positive = massive, negative = spontaneous symmetry breaking)  
+- *λ_Ψ*: Self-interaction coefficient (quartic term)  
+- *ξ*: Coupling to spacetime curvature  
+- *R(G)*: Ricci scalar  
+
+*Meaning*:  
+- Models dynamic evolution of meaning field under geometry  
+- Encodes semantic energy and its interaction with curvature  
+
+---
+
+*Term 4: Semantic Constraint*
+
+*S_sem = ∫ d^D X √(-G) λ_sem^AB (∇_A Ψ ∇_B Ψ† N_AB − κ_sem G_AB)*
+
+- *λ_sem^AB*: Lagrange multiplier enforcing semantic relation  
+- *κ_sem*: Semantic threshold for coherence  
+- *N_AB*: Negotiation tensor  
+- *G_AB*: Spacetime metric  
+
+*Meaning*:  
+- Couples meaning gradients to negotiation tensor  
+- Triggers emergence of semantic structure (e.g., consciousness) when threshold is passed  
+
+---
+
+*Term 5: Standard Model Sector*
+
+*S_SM = ∫ d^D X √(-G) [ (1 / 4g²) Tr(F_{MN} F^{MN}) + (D_M Φ)† (D^M Φ) − V(Φ) ]*
+
+- *F_{MN}*: Gauge field strength tensor  
+- *Φ*: Higgs field  
+- *D_M*: Covariant derivative with gauge potential  
+- *V(Φ) = −μ² |Φ|² + λ |Φ|⁴*: Higgs potential  
+
+*Meaning*:  
+- Contains Yang-Mills gauge fields and Higgs mechanism  
+- Embeds Standard Model interactions into the curved framework  
+
+---
+
+*Term 6: Boundary Action*
+
+*S_boundary = (1 / κ_D²) ∫_{∂M} d^{D−1}X √(-h) K*
+
+
+- *∂M*: Boundary of the spacetime manifold  
+- *h*: Determinant of the induced metric on the boundary  
+- *K*: Trace of the extrinsic curvature  
+
+*Meaning*:  
+- Required for a well-defined variational principle  
+- Appears in holographic dualities and black hole entropy  
+
+-
 
 ### 3.1.3 Parameter Dimensions and Natural Units
 
@@ -554,34 +638,74 @@ $$
 
 **Detailed Contributions:**
 
-1. **Negotiation Tensor Stress-Energy:**
-$$
-\begin{aligned}
-T_{AB}^N = & \frac{\lambda}{\kappa_D^2} \left[ 2 \nabla_C N_A^C \nabla_D N_B^D - \frac{1}{2} G_{AB} \nabla_C N_{DE} \nabla^C N^{DE} \right] \\
-& + m_N^2 \left( N_{AC} N_B^C - \frac{1}{4} G_{AB} N_{CD} N^{CD} \right) \\
-& + \lambda_N (N_{CD} N^{CD}) \left( N_{AC} N_B^C - \frac{1}{4} G_{AB} N_{CD} N^{CD} \right) \\
-& + \beta(|\Psi|^2 - |\Psi_c|^2) \left( N_{AC} N_B^C - \frac{1}{4} G_{AB} N_{CD} N^{CD} \right)
-\end{aligned}
-$$
+*1. Negotiation Tensor Stress-Energy Tensor*
 
-2. **Meaning Field Stress-Energy:**
-$$
-\begin{aligned}
-T_{AB}^\Psi = & (D_A \Psi)^\dagger (D_B \Psi) + (D_B \Psi)^\dagger (D_A \Psi) \\
-& - G_{AB} \left[ G^{CD} (D_C \Psi)^\dagger (D_D \Psi) - m_\Psi^2 |\Psi|^2 - \lambda_\Psi |\Psi|^4 \right] \\
-& + 2\xi \left( G_{AB} \nabla_C \nabla^C |\Psi|^2 - \nabla_A \nabla_B |\Psi|^2 + R_{AB} |\Psi|^2 \right) \\
-& - 2\xi \left( R_{AB} - \frac{1}{2} G_{AB} R \right) |\Psi|^2
-\end{aligned}
-$$
+*Tᶰ_AB =*  
+(λ / κ_D²) [  
+ 2 ∇_C N_A^C ∇_D N_B^D − (1/2) G_AB ∇_C N_DE ∇^C N^DE  
+]  
++ m_N² (N_AC N_B^C − (1/4) G_AB N_CD N^CD)  
++ λ_N (N_CD N^CD)(N_AC N_B^C − (1/4) G_AB N_CD N^CD)  
++ β(|Ψ|² − |Ψ_c|²)(N_AC N_B^C − (1/4) G_AB N_CD N^CD)
 
-3. **Standard Model Stress-Energy:**
-$$
-\begin{aligned}
-T_{AB}^{\text{SM}} = & \frac{1}{2g^2} \text{Tr}(F_{AC} F_B^C) - \frac{1}{8g^2} G_{AB} \text{Tr}(F_{CD} F^{CD}) \\
-& + (D_A \Phi)^\dagger (D_B \Phi) + (D_B \Phi)^\dagger (D_A \Phi) \\
-& - G_{AB} \left[ G^{CD} (D_C \Phi)^\dagger (D_D \Phi) - V(\Phi) \right]
-\end{aligned}
-$$
+*Definitions:*
+- *N_AB*: Negotiation tensor (pre-geometric mediator of structure)  
+- *∇_C*: Covariant derivative w.r.t. metric *G*  
+- *G_AB*: Spacetime metric tensor  
+- *λ, m_N, λ_N, β*: Coupling constants  
+- *Ψ*: Meaning field  
+- *Ψ_c*: Critical meaning field value triggering geometric effects  
+
+*Interpretation:*
+- Encodes how changes in *negotiation geometry* contribute to energy-momentum
+- Interacts nonlinearly with *meaning field* Ψ  
+- Includes kinetic and potential-like terms
+
+---
+
+*2. Meaning Field Stress-Energy Tensor*
+
+*T^Ψ_AB =*  
+(D_A Ψ)† (D_B Ψ) + (D_B Ψ)† (D_A Ψ)  
+− G_AB [ G^CD (D_C Ψ)† (D_D Ψ) − m_Ψ² |Ψ|² − λ_Ψ |Ψ|⁴ ]  
++ 2ξ [ G_AB ∇_C ∇^C |Ψ|² − ∇_A ∇_B |Ψ|² + R_AB |Ψ|² ]  
+− 2ξ (R_AB − (1/2) G_AB R) |Ψ|²
+
+*Definitions:*
+- *Ψ*: Meaning field (semantic scalar field)
+
+- *D_A*: Gauge covariant derivative: ∇_A − i q A_A  
+- *m_Ψ*: Mass of Ψ  
+- *λ_Ψ*: Self-interaction strength  
+- *ξ*: Coupling to curvature  
+- *R_AB*, *R*: Ricci tensor and scalar  
+
+*Interpretation:*
+- Standard energy-momentum tensor for scalar field Ψ  
+- Includes coupling to spacetime curvature  
+- Describes how *semantic energy* curves spacetime
+
+---
+
+*3. Standard Model Stress-Energy Tensor*
+
+*T^SM_AB =*  
+(1 / 2g²) Tr(F_AC F_B^C) − (1 / 8g²) G_AB Tr(F_CD F^CD)  
++ (D_A Φ)† (D_B Φ) + (D_B Φ)† (D_A Φ)  
+− G_AB [ G^CD (D_C Φ)† (D_D Φ) − V(Φ) ]
+
+*Definitions:*
+- *F_{AB}*: Gauge field strength (Yang-Mills)  
+- *g*: Gauge coupling constant  
+- *Φ*: Higgs field  
+- *D_A Φ*: Gauge covariant derivative of Φ  
+- *V(Φ)*: Higgs potential = −μ² |Φ|² + λ |Φ|⁴  
+- *G_AB*: Spacetime metric  
+
+*Interpretation:*
+- Energy-momentum from Standard Model fields  
+- Includes gauge bosons and Higgs scalar contributions  
+- Standard tensor in curved field theory
 
 ### 3.2.2 Variation with Respect to $N_{AB}$
 
