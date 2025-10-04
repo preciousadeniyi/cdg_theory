@@ -1821,7 +1821,7 @@ Planck-scale suppressed operators may appear in:
 |-------------------|------------|-----------------|---------------|-------------|-----------|
 | **Collider** | $N_{AB}$ resonances | $m_N = 1-10$ TeV, $\sigma \sim 0.1-10$ fb | ATLAS/CMS < 2-3 TeV | HL-LHC up to 6 TeV | 2029-2035 |
 | **Proton Decay** | $p \to e^+\pi^0$ | $\tau \sim 10^{35}$ yr | $>1.6\times10^{34}$ yr | Hyper-K $\sim 10^{35}$ yr | 2027-2035 |
-| **Dark Matter** | Fuzzy DM mass | $10^{-22}-10^{-20}$ eV | Lyman-α constraints | 21cm + JWST | 2023-2030 |
+| **Dark Matter** | Fuzzy DM mass | $10^{-22}-10^{-20}$ eV | Lyman-α constraints | 21cm + JWST | 2025-2030 |
 | **Dark Energy** | Early DE fraction | $\Omega_{\text{early}} \sim 0.01$ | Planck $\Omega_{\text{early}} < 0.03$ | CMB-S4 | 2027-2035 |
 | **Gravitational Waves** | Dispersion | $\Delta t \sim 10^{-8}$ s | LIGO sensitivity $\sim 1$ ms | ET/CE | 2030s |
 | **Inflation** | Tensor ratio | $r \sim 0.001-0.01$ | Planck $r < 0.036$ | LiteBIRD | 2030s |
@@ -1854,7 +1854,7 @@ CDG can be falsified by:
 
 ## 7.6 Timeline for Experimental Tests
 
-### 7.6.1 Near-Term (2023-2028)
+### 7.6.1 Near-Term (2025-2028)
 - **LHC Run 3**: Initial tests of TeV-scale physics
 - **JWST observations**: Dark matter substructure
 - **Pulsar timing arrays**: Stochastic gravitational wave background
@@ -2085,9 +2085,9 @@ The extension to consciousness, while mathematically consistent, faces philosoph
 
 | Timeframe | Experiment | Critical Test | CDG Prediction |
 |-----------|------------|---------------|----------------|
-| **2024-2028** | LHC Run 3 | $N_{AB}$ resonances | Exclusion below 3 TeV or discovery |
-| **2026-2030** | Hyper-Kamiokande | Proton decay | $\tau_p \sim 10^{35}$ years |
-| **2023-2028** | JWST | Fuzzy DM structure | Suppressed small-scale power |
+| **2026-2028** | LHC Run 3 | $N_{AB}$ resonances | Exclusion below 3 TeV or discovery |
+| **2027-2030** | Hyper-Kamiokande | Proton decay | $\tau_p \sim 10^{35}$ years |
+| **2025-2028** | JWST | Fuzzy DM structure | Suppressed small-scale power |
 | **2027-2032** | HL-LHC | Precision couplings | $O(1\%)$ deviations |
 | **2030-2035** | LISA | GW propagation | $|c_g-c|/c < 10^{-17}$ |
 
