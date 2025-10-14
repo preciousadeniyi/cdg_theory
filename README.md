@@ -483,27 +483,10 @@ The Curved Dynamics Geometry (CDG) framework is governed by the following action
 Each term in $\mathcal{L}_{\text{total}}$ must have mass dimension 11 in 11D:
 - $[d^{11}X] = M^{-11}$, $[\sqrt{-G}] = M^0$, so $[\mathcal{L}] = M^{11}$
 
-**Action**:
 
-
-\[
-S_{\text{CDG}} = \int d^{11}X \sqrt{-G} \left[ 
-    \frac{1}{2\kappa_{11}^2} R(G) 
-    + \frac{\lambda}{\kappa_{11}^2} \nabla_C N_{AB} \nabla^C N^{AB} 
-    + V_N(N,\Psi)
-    + G^{AB} (D_A \Psi)^\dagger (D_B \Psi) 
-    - m_\Psi^2 |\Psi|^2 
-    - \lambda_\Psi |\Psi|^4 
-    + \xi R(G) |\Psi|^2
-    + \lambda_{\text{sem}}^{AB} (\nabla_A \Psi \nabla_B \Psi^\dagger N_{AB} - \kappa_{\text{sem}} G_{AB})
-    + \frac{1}{4g^2} \text{Tr}(F_{AB} F^{AB})
-    + (D_A \Phi)^\dagger (D^A \Phi)
-    - V(\Phi)
-\right] + S_{\text{boundary}}
-\]
 $$
 \begin{aligned}
-S_{\text{CDG}} = \int d^{D}X \sqrt{-G} \bigg[ & \frac{1}{2\kappa_D^2} R(G) + \frac{\lambda}{\kappa_D^2} \nabla_C N_{AB} \nabla^C N^{AB} + V_N(N,\Psi) \\
+S_{\text{CDG}} = \int d^{11}X \sqrt{-G} \bigg[ & \frac{1}{2\kappa_D^2} R(G) + \frac{\lambda}{\kappa_D^2} \nabla_C N_{AB} \nabla^C N^{AB} + V_N(N,\Psi) \\
 & + G^{AB} (D_A \Psi)^\dagger (D_B \Psi) - m_\Psi^2 |\Psi|^2 - \lambda_\Psi |\Psi|^4 + \xi R(G) |\Psi|^2 \\
 & + \lambda_{\text{sem}}^{AB} (\nabla_A \Psi \nabla_B \Psi^\dagger N_{AB} - \kappa_{\text{sem}} G_{AB}) \\
 & + \frac{1}{4g^2} \text{Tr}(F_{MN} F^{MN}) + (D_M \Phi)^\dagger (D^M \Phi) - V(\Phi) \bigg] + S_{\text{boundary}}
