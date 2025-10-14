@@ -473,14 +473,28 @@ The framework maintains mathematical consistency while extending geometric princ
 
 The Curved Dynamics Geometry (CDG) framework is governed by the following action principle:
 
-$$
+**Consistent Notation**:
+- Spacetime indices: $A,B,C,\ldots = 0,\ldots,10$ (11D)
+- 4D spacetime indices: $\mu,\nu,\rho,\ldots = 0,\ldots,3$  
+- Internal space indices: $m,n,p,\ldots = 4,\ldots,10$
+- Gauge indices: $a,b,c,\ldots$ (gauge group)
+
+**Dimensional Analysis**:
+Each term in $\mathcal{L}_{\text{total}}$ must have mass dimension 11 in 11D:
+- $[d^{11}X] = M^{-11}$, $[\sqrt{-G}] = M^0$, so $[\mathcal{L}] = M^{11}$
+
+**Action**:
 \begin{aligned}
-S_{\text{CDG}} = \int d^{D}X \sqrt{-G} \bigg[ & \frac{1}{2\kappa_D^2} R(G) + \frac{\lambda}{\kappa_D^2} \nabla_C N_{AB} \nabla^C N^{AB} + V_N(N,\Psi) \\
+S_{\text{CDG}} = \int & d^{11}X \sqrt{-G} \bigg[ \frac{1}{2\kappa_{11}^2} R(G) + \frac{\lambda}{\kappa_{11}^2} \nabla_C N_{AB} \nabla^C N^{AB} + V_N(N,\Psi) \\
 & + G^{AB} (D_A \Psi)^\dagger (D_B \Psi) - m_\Psi^2 |\Psi|^2 - \lambda_\Psi |\Psi|^4 + \xi R(G) |\Psi|^2 \\
 & + \lambda_{\text{sem}}^{AB} (\nabla_A \Psi \nabla_B \Psi^\dagger N_{AB} - \kappa_{\text{sem}} G_{AB}) \\
-& + \frac{1}{4g^2} \text{Tr}(F_{MN} F^{MN}) + (D_M \Phi)^\dagger (D^M \Phi) - V(\Phi) \bigg] + S_{\text{boundary}}
+& + \frac{1}{4g^2} \text{Tr}(F_{AB} F^{AB}) + (D_A \Phi)^\dagger (D^A \Phi) - V(\Phi) \bigg] + S_{\text{boundary}}
 \end{aligned}
-$$
+
+**Parameter Dimensions**:
+- $[\kappa_{11}^2] = M^{-9}$, $[\lambda] = M^0$, $[m_N^2] = M^2$
+- $[\Psi] = M^{9/2}$, $[m_\Psi^2] = M^2$, $[\lambda_\Psi] = M^{-7}$
+- $[g^2] = M^0$, $[\Phi] = M^{9/2}$, $[\mu^2] = M^2$
 
 where the negotiation tensor potential is:
 
