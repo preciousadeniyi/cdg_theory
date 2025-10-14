@@ -638,6 +638,24 @@ All terms in the Lagrangian density have mass dimension $D$, ensuring renormaliz
 
 ## 3.2 Variational Principles
 
+** Stress-Energy Tensors**:
+
+*Negotiation Tensor* ($T_{AB}^N$):
+\begin{aligned}
+T_{AB}^N = &\frac{\lambda}{\kappa_{11}^2} \left[2 \nabla_C N_A^C \nabla_D N_B^D - \frac{1}{2} G_{AB} \nabla_C N_{DE} \nabla^C N^{DE}\right] \\
+&+ m_N^2 \left(N_{AC} N_B^C - \frac{1}{4} G_{AB} N_{CD} N^{CD}\right) \\
+&+ \lambda_N (N_{CD} N^{CD}) \left(N_{AC} N_B^C - \frac{1}{4} G_{AB} N_{CD} N^{CD}\right) \\
+&+ \beta(|\Psi|^2 - |\Psi_c|^2) \left(N_{AC} N_B^C - \frac{1}{4} G_{AB} N_{CD} N^{CD}\right)
+\end{aligned}
+
+*Meaning Field* ($T_{AB}^\Psi$):
+\begin{aligned}
+T_{AB}^\Psi = &(D_A \Psi)^\dagger (D_B \Psi) + (D_B \Psi)^\dagger (D_A \Psi) \\
+&- G_{AB} \left[G^{CD} (D_C \Psi)^\dagger (D_D \Psi) - m_\Psi^2 |\Psi|^2 - \lambda_\Psi |\Psi|^4\right] \\
+&+ 2\xi \left[G_{AB} \nabla_C \nabla^C |\Psi|^2 - \nabla_A \nabla_B |\Psi|^2 + R_{AB} |\Psi|^2\right] \\
+&- 2\xi \left(R_{AB} - \frac{1}{2} G_{AB} R\right) |\Psi|^2
+\end{aligned}
+
 ### 3.2.1 Variation with Respect to the Metric $G_{AB}$
 
 The variation yields the generalized Einstein equations:
