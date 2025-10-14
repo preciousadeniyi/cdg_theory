@@ -3,7 +3,16 @@
 
 
 **Author:** Adeniyi Precious. A 
+The theory is governed by an action principle where a negotiation tensor $N_{\mu\nu}$ mediates between geometric and quantum sectors:
 
+$$S_{\text{CDG}} = \int d^{11}X \sqrt{-G} \left[ \mathcal{L}_{\text{grav}} + \mathcal{L}_{\text{negotiation}} + \mathcal{L}_{\text{matter}} + \mathcal{L}_{\text{coupling}} \right] + S_{\text{boundary}}$$
+
+**Mass Dimensions in Natural Units** ($\hbar = c = 1$):
+- $[G_{AB}] = M^0$, $[R] = M^2$, $[\kappa_{11}^2] = M^{-9}$
+- $[N_{AB}] = M^0$, $[\Psi] = M^{9/2}$, $[m_\Psi^2] = M^2$
+- $[A_M] = M^1$, $[F_{MN}] = M^2$, $[g^2] = M^0$
+
+**Signature Convention**: $(-,+,+,+,\underbrace{+,\cdots,+}_{\text{7 internal}})$ for 11D
 
 
 **Affiliation:** Independent Researcher
