@@ -148,7 +148,7 @@ where contorsion $K_{ABC}$ is algebraically related to $N_{AB}$.
 The CDG framework ensures mathematical consistency through:
 
 **Theorem 1.3.1 (Well-Posed Initial Value Problem):** The CDG field equations, derived from the action principle:
-$$S_{\text{CDG}} = \int d^{D}X \sqrt{-G} \left[ \mathcal{L}_{\text{grav}} + \mathcal{L}_{\text{negotiation}} + \mathcal{L}_{\text{matter}} + \mathcal{L}_{\text{coupling}} \right] + S_{\text{boundary}}$$
+***S_CDG = ∫ dᴰ X √(-G) [ ℒ_grav + ℒ_negotiation + ℒ_matter + ℒ_coupling ] + S_boundary***
 define a properly-posed Cauchy problem. (Proof in Section 3.4)
 
 **Theorem 1.3.2 (Mathematical Consistency):** All field equations maintain:
