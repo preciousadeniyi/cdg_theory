@@ -287,7 +287,6 @@ The framework demonstrates that geometric principles can be extended to provide 
 
 
 
-
 # 1. Introduction
 
 ## 1.1 The Unification Landscape
