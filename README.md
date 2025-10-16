@@ -70,7 +70,8 @@ Key features include:
 - **Extended geometric framework**: Incorporates both Riemannian geometry and additional tensor structures through $N_{AB}$
 - **Unification pathway**: Mathematical framework accommodates both gravitational and gauge interactions through generalized connections
 - **Testable predictions**: Negotiation tensor resonances ($m_N \sim 1-10$ TeV) accessible at HL-LHC, fuzzy dark matter candidate ($m_\Psi \sim 10^{-22}$ eV)
-- **Information-geometric connections**: Extended framework suggests geometric interpretations of information measures in complex systems
+
+- **Information-geometric connections:** Extended framework suggests geometric interpretations of information dynamics in physical systems
 
 The framework demonstrates that extended geometric principles can provide a coherent mathematical foundation for investigating quantum gravity, while generating specific, testable predictions for current experimental facilities.
 
@@ -287,76 +288,6 @@ The framework demonstrates that geometric principles can be extended to provide 
 
 
 
-# 1. Introduction
-
-## 1.1 The Unification Landscape
-
-The pursuit of a unified theoretical framework for physics remains a central challenge in fundamental science. Current approaches each offer unique insights while facing distinct limitations:
-
-**String Theory** provides mathematical consistency through its natural inclusion of gravity and gauge interactions, with the AdS/CFT correspondence offering profound insights into quantum gravity [1-3]. However, it confronts challenges including the landscape problem [4], experimental verification, and connection to low-energy phenomenology.
-
-**Loop Quantum Gravity** offers background-independent quantization of geometry with significant cosmological applications [5-7], yet faces difficulties in recovering the Standard Model and connecting with particle physics.
-
-**Alternative approaches** including Causal Set Theory [8] and Asymptotic Safety in quantum gravity [9,10] provide valuable perspectives but encounter their own challenges in achieving complete unification.
-
-The fundamental obstacle lies in the mathematical incompatibility between the geometric framework of general relativity and the probabilistic structure of quantum field theory.
-
-## 1.2 Core Theoretical Problems
-
-Three principal problems obstruct progress toward quantum gravity:
-
-### 1.2.1 The Renormalizability Problem
-General relativity proves non-renormalizable under standard perturbative quantization [11,12]. The Einstein-Hilbert action produces divergences unresolvable through conventional renormalization techniques.
-
-### 1.2.2 The Singularity Problem  
-The Penrose-Hawking singularity theorems [13,14] demonstrate that general relativity predicts its own breakdown through singularity formation under generic conditions.
-
-### 1.2.3 The Measurement Problem
-The quantum measurement problem [15,16] remains unresolved, presenting fundamental questions about wavefunction collapse and observation.
-
-Additional challenges include the problem of time in quantum gravity [17] and the black hole information paradox [18].
-
-## 1.3 A Geometric Extension Framework
-
-Following Einstein's methodological principle that "physical laws should have complete mathematical beauty," we develop the Curved Dynamics Geometry (CDG) framework as an extension of established geometric principles.
-
-CDG builds upon three mathematical postulates:
-
-1. **Extended Geometric Unity**: Physical laws emerge from the intrinsic geometry of a universal manifold $\mathcal{U}$ with additional tensor structure beyond the metric
-2. **Dynamic Negotiation Principle**: Geometric and quantum sectors interact through a dynamical negotiation tensor $N_{AB}$ that mediates between different geometric structures
-3. **Emergent Dimensionality**: Observed 4D spacetime and internal symmetries emerge from specific projections and constraints on higher-dimensional structure
-
-The framework introduces two mathematical innovations:
-
-- A generalized connection $\nabla$ on $\mathcal{U}$ unifying gravitational and gauge interactions through extended holonomy
-- A dynamical tensor field $N_{AB}$ encoding constraints and negotiations between different geometric sectors
-
-**Key Distinctions from Existing Approaches:**
-- Unlike Kaluza-Klein theories, CDG includes dynamical negotiation beyond metric components
-- Unlike string theory, CDG maintains continuum field theory while extending geometric structures
-- Unlike pure geometrodynamics, CDG incorporates information-theoretic elements through semantic constraints
-
-## 1.4 Roadmap and Falsifiability
-
-This paper establishes CDG through systematic mathematical development:
-
-**Part I: Mathematical Foundations**
-- Section 2: Complete differential geometric foundations of the universal manifold
-- Section 3: Action principle derivation and field equations
-
-**Part II: Physical Recovery**  
-- Section 4: Demonstration of general relativity and Standard Model emergence
-- Section 5: Mathematical frameworks for investigating singularity and measurement problems
-
-**Part III: Experimental Predictions**
-- Section 6: Derivation of fundamental parameter relationships from geometric constraints
-- Section 7: Specific, testable predictions for current experimental facilities
-
-**Part IV: Extended Implications**
-
-- Section 8: Limitations and future research directions
-
-The framework makes falsifiable predictions including measurable negotiation tensor effects at the LHC ($m_N \sim 1-10$ TeV scale) and specific deviations from Standard Model expectations, providing clear experimental validation pathways.
 
 
 
@@ -615,12 +546,10 @@ Demonstrate that Ψ-field localizes near associative 3-cycles `Σ₃ ⊂ 𝒦₇
 
 on explicit Joyce manifold backgrounds.
 
-### 2.6.3 Semantic Constraint - NOVEL ELEMENT
+### 2.6.3 Geometric Constraint - NOVEL ELEMENT
 
-The semantic constraint represents a fundamentally new type of geometry-information coupling:
-
-
-∇_A Ψ ∇_B Ψ^† N^AB = κ_sem G_AB
+The geometric constraint couples field gradients to tensor structures:
+  ∇_A Ψ ∇_B Ψ^† N^AB = κ_geo G_AB
 
 
 **Research Target 2.6.3:**
@@ -681,7 +610,7 @@ m_N_4D² = m_N_11D² + (KK scale contributions)
 
 **Physical Extensions:**
 - 🔄 Modified connection with contorsion
-- 🔄 Information-geometric coupling
+- 🔄 Field-geometry coupling
 - 🔄 Non-supersymmetric moduli stabilization
 
 ### 2.8.3 Experimental Predictions - CALCULATIONS NEEDED
@@ -756,10 +685,7 @@ $$
 S_{\text{boundary}} = \frac{1}{\kappa_D^2} \int_{\partial\mathcal{M}} d^{D-1}X \sqrt{-h} K
 $$
 
-**Critical Corrections Made:**
-- **Dimensional Consistency**: Changed from fixed 11D to general $D$-dimensional formulation
-- **Gauge Coupling**: Added $1/g^2$ factor for proper Yang-Mills normalization
-- **Mathematical Rigor**: All equations now dimensionally consistent
+
 
 ### 3.1.2 Geometric Interpretation of Each Term
 
@@ -818,7 +744,7 @@ $$
 
 ---
 
-*Term 4: Semantic Constraint*
+*Term 4: Geometric Constraint*
 
 *S_sem = ∫ d^D X √(-G) λ_sem^AB (∇_A Ψ ∇_B Ψ† N_AB − κ_sem G_AB)*
 
@@ -827,11 +753,9 @@ $$
 - *N_AB*: Negotiation tensor  
 - *G_AB*: Spacetime metric  
 
-*Meaning*:  
-- Couples meaning gradients to negotiation tensor  
-- Triggers emergence of semantic structure (e.g., consciousness) when threshold is passed  
-
----
+INTERPRETATION:
+"Couples scalar field gradients to negotiation tensor"
+"May trigger phase transitions when field gradients exceed critical values"
 
 *Term 5: Standard Model Sector*
 
@@ -876,7 +800,7 @@ In natural units ($\hbar = c = 1$), with $[L] = M^{-1}$:
 | $[\lambda]$ | $M^0$ | Dimensionless coupling |
 | $[m_N^2]$ | $M^2$ | Negotiation tensor mass |
 | $[\Psi]$ | $M^{\frac{D-2}{2}}$ | Scalar field dimension |
-| $[m_\Psi^2]$ | $M^2$ | Meaning field mass |
+| $[m_\Psi^2]$ | $M^2$ | Ψ-field mass |
 | $[\lambda_\Psi]$ | $M^{4-D}$ | Self-coupling dimension |
 | $[g^2]$ | $M^{4-D}$ | Gauge coupling dimension |
 
@@ -923,17 +847,17 @@ $$
 - *∇_C*: Covariant derivative w.r.t. metric *G*  
 - *G_AB*: Spacetime metric tensor  
 - *λ, m_N, λ_N, β*: Coupling constants  
-- *Ψ*: Meaning field  
-- *Ψ_c*: Critical meaning field value triggering geometric effects  
+- *Ψ*: Ψ-field  
+- *Ψ_c*: Critical Ψ-field value triggering geometric effects  
 
 *Interpretation:*
 - Encodes how changes in *negotiation geometry* contribute to energy-momentum
-- Interacts nonlinearly with *meaning field* Ψ  
+- Interacts nonlinearly with *Ψ-field* Ψ  
 - Includes kinetic and potential-like terms
 
 ---
 
-*2. Meaning Field Stress-Energy Tensor*
+*2. Ψ-field Stress-Energy Tensor*
 
 *T^Ψ_AB =*  
 (D_A Ψ)† (D_B Ψ) + (D_B Ψ)† (D_A Ψ)  
@@ -942,7 +866,7 @@ $$
 − 2ξ (R_AB − (1/2) G_AB R) |Ψ|²
 
 *Definitions:*
-- *Ψ*: Meaning field (semantic scalar field)
+- *Ψ*: Ψ-field (semantic scalar field)
 
 - *D_A*: Gauge covariant derivative: ∇_A − i q A_A  
 - *m_Ψ*: Mass of Ψ  
@@ -997,7 +921,7 @@ $$
 \frac{1}{\sqrt{-G}} \frac{\delta S_{\text{CDG}}}{\delta \Psi^\dagger} = 0
 $$
 
-Gives the meaning field equation:
+Gives the Ψ-field equation:
 
 $$
 \nabla_A \nabla^A \Psi + (m_\Psi^2 - \xi R(G)) \Psi + 2\lambda_\Psi |\Psi|^2 \Psi - \beta N_{AB} N^{AB} \Psi + \nabla_A (\lambda_{\text{sem}}^{AB} N_{AB} \nabla_B \Psi) = 0
@@ -1017,7 +941,7 @@ $$
 \nabla_A \Psi \nabla_B \Psi^\dagger N_{AB} = \kappa_{\text{sem}} G_{AB}
 $$
 
-This constraint couples meaning field gradients to geometric negotiation.
+This constraint couples Ψ-fiel field gradients to geometric negotiation.
 
 ### 3.2.5 Variation with Respect to Gauge Fields
 
